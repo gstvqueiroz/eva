@@ -32,7 +32,7 @@ II) IDP
 	* se IDP = 1, então, projeto no prazo;
 	* se IDP < 1, então, projeto atrasado.
 
-Nota: esta é uma versão beta do software, onde, será desenvolvido versõs mais complexas e detalhadas do EVA.
+Nota: esta é uma versão beta do software, onde, será desenvolvido versões mais complexas e detalhadas do EVA.
 
 REFERÊNCIA:
 MATTOS, ALDO DÓREA. Planejamento e Controle de Obras. 1° ed. São Paulo: PINI.
