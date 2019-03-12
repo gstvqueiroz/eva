@@ -21,6 +21,7 @@ Para melhor esclarecimento das variáveis citadas acima, segue a definição das
 * IDP -> "quociente entre valor agregado e o valor previsto":
       IDP = VA / VP.
 
+### Status do IDC e IDP
 Os índices IDC e IDP são muito importantes para identificar as condições do projeto em relação a custo e prazo. Tais índices funcionam da seguinte forma:
 
 I) IDC
