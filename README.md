@@ -7,26 +7,26 @@ Em seguida será retornado a VARIAÇÃO DE CUSTO (VC), VARIAÇÃO DE PROGRESSO (
 
 Para melhor esclarecimento das variáveis citadas acima, segue a definição das mesmas:
 
-Input
+###Input
 
-VP -> "quanto deveria ter sido realizado (de acordo com o cronograma)" ;
+> VP -> "quanto deveria ter sido realizado (de acordo com o cronograma)" ;
 
-VA -> "quanto deveria ter custado o que foi realizado";
+> VA -> "quanto deveria ter custado o que foi realizado";
 
-CR -> "custo real do trabalho realizado".
+> CR -> "custo real do trabalho realizado".
 
-Resultados
+###Resultados
 
-VC  -> "diferença entre o valor agregado e o custo real": 
+> VC  -> "diferença entre o valor agregado e o custo real": 
       VC = VA - CR;
       
-VPr -> "representa o desvio entre quanto trabalho foi produzido até a data e quanto deveria ter sido produzido de acordo com o planejado":
+> VPr -> "representa o desvio entre quanto trabalho foi produzido até a data e quanto deveria ter sido produzido de acordo com o planejado":
       VPr = VA - VP;
       
-IDC -> "quociente entre valor agregado e o custo real":
+> IDC -> "quociente entre valor agregado e o custo real":
       IDC = VA / CR;
       
-IDP -> "quociente entre valor agregado e o valor previsto":
+> IDP -> "quociente entre valor agregado e o valor previsto":
       IDP = VA / VP.
 
 Os índices IDC e IDP são muito importantes para identificar as condições do projeto em relação a custo e prazo. Tais índices funcionam da seguinte forma:
