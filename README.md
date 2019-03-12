@@ -1,4 +1,5 @@
-########## Earned Value Analysis (EVA) ##########
+Earned Value Analysis (EVA)
+=======
 
 Este app tem como objetivo fazer a análise do valor agregado de um projeto. Isso será possível com o input das variáveis VALOR PREVISTO (VP), VALOR AGREGADO (VA) e CUSTO REAL (CR).
 
