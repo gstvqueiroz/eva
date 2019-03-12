@@ -52,4 +52,4 @@ REFERÊNCIA:
 
 MATTOS, ALDO DÓREA. Planejamento e Controle de Obras. 1° ed. São Paulo: PINI.
 
-FÓRMULAS VALOR AGREGADO. Disponível em: <https://www.pmtech.com.br/PMP/Formulas_valor_agregado.pdf> Acesso em: 12/03/2019.
+FÓRMULAS VALOR AGREGADO. Disponível em: <https://www.pmtech.com.br/PMP/Formulas_valor_agregado.pdf>. Acesso em: 12/03/2019.
