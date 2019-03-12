@@ -7,15 +7,13 @@ Em seguida será retornado a VARIAÇÃO DE CUSTO (VC), VARIAÇÃO DE PROGRESSO (
 
 Para melhor esclarecimento das variáveis citadas acima, segue a definição das mesmas:
 
-###Input
+### Input
 
-> VP -> "quanto deveria ter sido realizado (de acordo com o cronograma)" ;
+* VP -> "quanto deveria ter sido realizado (de acordo com o cronograma)" ;
+* VA -> "quanto deveria ter custado o que foi realizado";
+* CR -> "custo real do trabalho realizado".
 
-> VA -> "quanto deveria ter custado o que foi realizado";
-
-> CR -> "custo real do trabalho realizado".
-
-###Resultados
+### Resultados
 
 > VC  -> "diferença entre o valor agregado e o custo real": 
       VC = VA - CR;
