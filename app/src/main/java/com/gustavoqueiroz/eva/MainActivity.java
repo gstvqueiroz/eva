@@ -1,8 +1,10 @@
 package com.gustavoqueiroz.eva;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import java.text.DecimalFormat;
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView idp; // Índice de desempenho de prazo
     private TextView status1; // Status IDC
     private TextView status2; // Status IDP
+    private Button proximaTela; // Apresentar resultado em outra tela
 
 
     @Override
@@ -34,6 +37,21 @@ public class MainActivity extends AppCompatActivity {
         idp = findViewById(R.id.idp);
         status1 = findViewById(R.id.status1);
         status2 = findViewById(R.id.status2);
+
+        proximaTela = findViewById(R.id.proxima);
+        proximaTela.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), resultados.class);
+
+                // passar dados
+                intent.putExtra("vp", vp.getText().toString());
+                intent.putExtra("va", va.getText().toString());
+                intent.putExtra("cr", cr.getText().toString());
+
+                startActivity(intent);
+            }
+        });
 
     }
 
